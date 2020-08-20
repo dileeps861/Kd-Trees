@@ -74,7 +74,7 @@ public class PointSET {
         }
         return nearestPoint;
     }
-
+    // Assert if the input argument is null
     private void assertNull(Object obj) {
         if (obj == null) throw new IllegalArgumentException("Argument cannot be null");
     }
